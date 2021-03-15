@@ -13,6 +13,7 @@ import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import {HttpClientModule} from '@angular/common/http'
+import {FormsModule} from '@angular/forms'
 
 
 @NgModule({
@@ -27,7 +28,9 @@ import {HttpClientModule} from '@angular/common/http'
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule, 
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    HttpClientModule,
+    FormsModule
     
   ],
   providers: [],
